@@ -1,0 +1,46 @@
+.container input{
+    background-image:url(../assets/img/fondo2.jpg);
+    color:white;
+    height: 50px;
+    width: 100px;
+    border-radius:10px;
+    border:2px dashed rgb(251, 251, 250);
+    margin:2px;
+    font-size:xx-large;
+}
+
+
+.container input:hover {
+    color: rgb(21, 239, 239);
+  }
+
+
+.calculator input{
+    
+    border-radius:8px;
+    border:3px dotted rebbecapurple;
+    background-color:lightcyan;
+    font-size: xx-large;
+}
+
+.full{
+    border:10px solid grey;
+    margin:2px;
+    padding:12px;   
+    border-radius:20px;
+    background-image:url(../assets/img/fondo5.jpg);   
+}
+
+
+input[type='text']{
+
+    color:white;
+    text-align:right;
+
+}
+
+.scroll {
+    height: 350px;
+    max-height:350px;
+    overflow-y: auto;
+}
